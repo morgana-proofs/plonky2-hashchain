@@ -10,6 +10,8 @@ rustup override set nightly
 RUSTFLAGS="-C target-cpu=native -A warnings" cargo test -r -- --nocapture
 ```
 
+TRIGGER WARNING: author is extremely new to Rust, so pointers and unwraps are flying everywhere, don't search too much logic in it.
+
 ## What it does
 
 
